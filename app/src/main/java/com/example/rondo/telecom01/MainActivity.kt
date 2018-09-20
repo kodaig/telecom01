@@ -21,16 +21,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ReceiveActivity::class.java)
             startActivity(intent)
         }
-
-        toUltraSend.setOnClickListener{
-            val intent = Intent(this, UltraSendActivity::class.java)
-            startActivity(intent)
-        }
-
-        toUltraReceive.setOnClickListener{
-            val intent = Intent(this, UltraReceiveActivity::class.java)
-            startActivity(intent)
-        }
-
     }
 }
